@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: ai-topic-expert-backend
+    runtime: node
+    buildCommand: cd backend && npm install
+    startCommand: cd backend && npm start
